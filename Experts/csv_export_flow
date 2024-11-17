@@ -8,7 +8,7 @@ nodes:
       id: zPSURRDgwmRk7f8q6UWgD
       title: generate CSV formatted text
       input: ''
-      slashgptManifest: csv_formatter
+      slashgptManifest: csv_formatter.model
       toolJson: ''
       toolCode: ''
       outputType: overwrite
@@ -19,7 +19,7 @@ nodes:
         repo: studio-eli
     width: 212
     height: 490
-    selected: false
+    selected: true
     positionAbsolute:
       x: 263.7199439966878
       'y': 41.766727155942114
@@ -68,7 +68,7 @@ nodes:
       outputName: test_output.csv
     width: 212
     height: 190
-    selected: true
+    selected: false
     positionAbsolute:
       x: 260.0858458101985
       'y': 634.7730475188116
