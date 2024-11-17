@@ -1,0 +1,72 @@
+nodes:
+  - id: 3PnHBRUTkeYgW6ckKlo41
+    type: file
+    position:
+      x: 417.54671723609533
+      'y': 411.2935303902492
+    data:
+      id: 3PnHBRUTkeYgW6ckKlo41
+      title: Inputted md file
+      fileName: inventory-reco.md
+      flowState:
+        backend: git
+        repo: studio-eli
+    width: 212
+    height: 226
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 417.54671723609533
+      'y': 411.2935303902492
+  - id: TDn8IA4bWgA314OjtPmpd
+    type: code_generation
+    position:
+      x: 744.929413833323
+      'y': 460.02388778472346
+    data:
+      id: TDn8IA4bWgA314OjtPmpd
+      title: Generate Code
+      prompt: >-
+        Given the markdown file and the code generation instructions, generate
+        the python code to convert the markdown into a word document
+      outputType: overwrite
+      outputToCanvas: true
+      useUserQuery: false
+      apiKey: OPENAI_API_KEY
+      engineName: openai-gpt
+      modelName: gpt-4o
+    width: 214
+    height: 586
+    selected: false
+    positionAbsolute:
+      x: 744.929413833323
+      'y': 460.02388778472346
+    dragging: false
+  - id: AZmlAl90_zDdlD2Ift0s_
+    type: out
+    position:
+      x: 701.1554841084433
+      'y': 1131.680122000847
+    data:
+      id: AZmlAl90_zDdlD2Ift0s_
+      title: Save generated code
+      outputName: md_to_docx.txt
+    width: 212
+    height: 190
+    selected: true
+    positionAbsolute:
+      x: 701.1554841084433
+      'y': 1131.680122000847
+    dragging: false
+edges:
+  - source: TDn8IA4bWgA314OjtPmpd
+    sourceHandle: b
+    target: AZmlAl90_zDdlD2Ift0s_
+    targetHandle: t
+    id: P4V9gw
+  - source: 3PnHBRUTkeYgW6ckKlo41
+    sourceHandle: b
+    target: TDn8IA4bWgA314OjtPmpd
+    targetHandle: l
+    id: N7KBPr
+description: null
