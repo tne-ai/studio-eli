@@ -79,7 +79,7 @@ for line in html.splitlines():
         document.add_heading(line[4:-5], 1)
     elif line.startswith("<h2>"):
         document.add_heading(line[5:-6], 2)
-    elif line.startswith("<p>")):
+    elif line.startswith("<p>"):
         paragraph = document.add_paragraph()
         run = paragraph.add_run(line[3:-4])
         run.font.size = Pt(12)
