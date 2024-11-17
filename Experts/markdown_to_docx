@@ -28,7 +28,7 @@ nodes:
       title: Generate Code
       prompt: Given the markdown file, generate a corresponding word document.
       outputType: overwrite
-      outputToCanvas: true
+      outputToCanvas: false
       useUserQuery: false
       apiKey: OPENAI_API_KEY
       engineName: tne
