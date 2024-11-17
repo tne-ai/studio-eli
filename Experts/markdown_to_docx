@@ -80,7 +80,54 @@ nodes:
       x: 770.3221024832056
       'y': 86.00444154359363
     dragging: false
+  - id: GWE8Rpc7JlThR2ls0dgNT
+    type: python_code
+    position:
+      x: 1110.7386605970062
+      'y': 811.6412434478322
+    data:
+      id: GWE8Rpc7JlThR2ls0dgNT
+      title: New Code
+      module: run_code.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState:
+        backend: git
+        repo: studio-eli
+        content:
+          name: markdown_to_docx
+          path: Experts/markdown_to_docx
+          sha: 1847a63b4d2ff506ad15d0cbab0914d7bf9d148d
+          size: 2787
+          url: >-
+            https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/markdown_to_docx?ref=main
+          html_url: >-
+            https://github.com/tne-ai/studio-eli/blob/main/Experts/markdown_to_docx
+          git_url: >-
+            https://api.github.com/repos/tne-ai/studio-eli/git/blobs/1847a63b4d2ff506ad15d0cbab0914d7bf9d148d
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/studio-eli/main/Experts/markdown_to_docx
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/markdown_to_docx?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/studio-eli/git/blobs/1847a63b4d2ff506ad15d0cbab0914d7bf9d148d
+            html: >-
+              https://github.com/tne-ai/studio-eli/blob/main/Experts/markdown_to_docx
+    width: 212
+    height: 348
+    selected: true
+    positionAbsolute:
+      x: 1110.7386605970062
+      'y': 811.6412434478322
+    dragging: false
 edges:
+  - source: TDn8IA4bWgA314OjtPmpd
+    sourceHandle: r
+    target: GWE8Rpc7JlThR2ls0dgNT
+    targetHandle: t
+    id: YDCshk
   - source: 1SXy0b6kJoS_t2WsGPOv4
     sourceHandle: b
     target: TDn8IA4bWgA314OjtPmpd
