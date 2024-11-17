@@ -19,7 +19,7 @@ nodes:
         repo: studio-eli
     width: 212
     height: 490
-    selected: true
+    selected: false
     positionAbsolute:
       x: 263.7199439966878
       'y': 41.766727155942114
@@ -81,28 +81,7 @@ nodes:
       x: 172.5687701716837
       'y': -364.2240751548566
     dragging: false
-  - id: pqIe5Sk4UZxDmVvwUZmlA
-    type: out
-    position:
-      x: 697.3988229365893
-      'y': 324.4964217050456
-    data:
-      id: pqIe5Sk4UZxDmVvwUZmlA
-      title: Save File
-      outputName: output.csv
-    width: 212
-    height: 190
-    selected: false
-    positionAbsolute:
-      x: 697.3988229365893
-      'y': 324.4964217050456
-    dragging: false
 edges:
-  - source: zPSURRDgwmRk7f8q6UWgD
-    sourceHandle: b
-    target: pqIe5Sk4UZxDmVvwUZmlA
-    targetHandle: t
-    id: egjqXa
   - source: QoH4X2P3L0Xf0PeNohfEI
     sourceHandle: b
     target: zPSURRDgwmRk7f8q6UWgD
