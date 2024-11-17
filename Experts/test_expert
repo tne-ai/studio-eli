@@ -33,12 +33,33 @@ nodes:
       flowState: *ref_0
     width: 212
     height: 226
-    selected: true
+    selected: false
     positionAbsolute:
       x: 495.0546448087432
       'y': -107.80245901639341
     dragging: false
+  - id: Kn0qbq0DGXouGpuMYHAPF
+    type: out
+    position:
+      x: 803.9141553569829
+      'y': 570.6656757256114
+    data:
+      id: Kn0qbq0DGXouGpuMYHAPF
+      title: Save File
+      outputName: story.txt
+    width: 212
+    height: 190
+    selected: true
+    positionAbsolute:
+      x: 803.9141553569829
+      'y': 570.6656757256114
+    dragging: false
 edges:
+  - source: K2MJYN7O0LZY4D4uNRlUN
+    sourceHandle: r
+    target: Kn0qbq0DGXouGpuMYHAPF
+    targetHandle: t
+    id: NYgr_h
   - source: dMp5RGi_1Mq161Hye-JAl
     sourceHandle: b
     target: K2MJYN7O0LZY4D4uNRlUN
