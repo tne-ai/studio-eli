@@ -2,8 +2,8 @@ nodes:
   - id: zPSURRDgwmRk7f8q6UWgD
     type: llm
     position:
-      x: 263.7199439966878
-      'y': 41.766727155942114
+      x: 202.26282432130347
+      'y': 52.94074891510289
     data:
       id: zPSURRDgwmRk7f8q6UWgD
       title: generate CSV formatted text
@@ -13,16 +13,16 @@ nodes:
       toolCode: ''
       outputType: overwrite
       outputToCanvas: false
-      useUserQuery: true
+      useUserQuery: false
       flowState: &ref_0
         backend: git
         repo: studio-eli
     width: 212
     height: 490
-    selected: true
+    selected: false
     positionAbsolute:
-      x: 263.7199439966878
-      'y': 41.766727155942114
+      x: 202.26282432130347
+      'y': 52.94074891510289
     dragging: false
   - id: 9kH31ORkuXt3-NLg_70o3
     type: file
@@ -81,7 +81,28 @@ nodes:
       x: 172.5687701716837
       'y': -364.2240751548566
     dragging: false
+  - id: aHnA50i_8X5g6A-szKjHy
+    type: out
+    position:
+      x: 576.458896392997
+      'y': 278.6370410549534
+    data:
+      id: aHnA50i_8X5g6A-szKjHy
+      title: Save File
+      outputName: output.csv
+    width: 212
+    height: 190
+    selected: false
+    positionAbsolute:
+      x: 576.458896392997
+      'y': 278.6370410549534
+    dragging: false
 edges:
+  - source: zPSURRDgwmRk7f8q6UWgD
+    sourceHandle: b
+    target: aHnA50i_8X5g6A-szKjHy
+    targetHandle: t
+    id: HFJGvK
   - source: QoH4X2P3L0Xf0PeNohfEI
     sourceHandle: b
     target: zPSURRDgwmRk7f8q6UWgD
