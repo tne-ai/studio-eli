@@ -28,18 +28,18 @@ nodes:
     type: file
     position:
       x: 449.88940247822813
-      'y': -399.5485467065557
+      'y': -397.70871917424984
     data:
       id: 9kH31ORkuXt3-NLg_70o3
       title: Data
-      fileName: inventory-reco.txt
+      fileName: inventory-reco.json
       flowState: *ref_0
     width: 212
     height: 226
-    selected: false
+    selected: true
     positionAbsolute:
       x: 449.88940247822813
-      'y': -399.5485467065557
+      'y': -397.70871917424984
     dragging: false
   - id: u7m0iEI4xoBBgmlQp3jDo
     type: out
