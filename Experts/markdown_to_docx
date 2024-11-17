@@ -2,8 +2,8 @@ nodes:
   - id: 3PnHBRUTkeYgW6ckKlo41
     type: file
     position:
-      x: 417.54671723609533
-      'y': 411.2935303902492
+      x: 723.206423305429
+      'y': 295.0303293086621
     data:
       id: 3PnHBRUTkeYgW6ckKlo41
       title: Inputted md file
@@ -13,78 +13,16 @@ nodes:
         repo: studio-eli
     width: 212
     height: 226
-    selected: false
-    dragging: false
-    positionAbsolute:
-      x: 417.54671723609533
-      'y': 411.2935303902492
-  - id: TDn8IA4bWgA314OjtPmpd
-    type: code_generation
-    position:
-      x: 744.929413833323
-      'y': 460.02388778472346
-    data:
-      id: TDn8IA4bWgA314OjtPmpd
-      title: Generate Code
-      prompt: Given the markdown file, generate a corresponding word document.
-      outputType: overwrite
-      outputToCanvas: false
-      useUserQuery: false
-      apiKey: OPENAI_API_KEY
-      engineName: tne
-      modelName: Llama-3.1-405B-Instruct
-    width: 214
-    height: 538
     selected: true
-    positionAbsolute:
-      x: 744.929413833323
-      'y': 460.02388778472346
     dragging: false
-  - id: 1SXy0b6kJoS_t2WsGPOv4
-    type: file
-    position:
-      x: 770.3221024832056
-      'y': 86.00444154359363
-    data:
-      id: 1SXy0b6kJoS_t2WsGPOv4
-      title: PROMPT
-      fileName: md_to_doc_prompt.txt
-      flowState:
-        backend: git
-        repo: studio-eli
-        content:
-          name: markdown_to_docx
-          path: Experts/markdown_to_docx
-          sha: cc89045f5316e5a5e96e7efaeaea35b8a05a223f
-          size: 1680
-          url: >-
-            https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/markdown_to_docx?ref=main
-          html_url: >-
-            https://github.com/tne-ai/studio-eli/blob/main/Experts/markdown_to_docx
-          git_url: >-
-            https://api.github.com/repos/tne-ai/studio-eli/git/blobs/cc89045f5316e5a5e96e7efaeaea35b8a05a223f
-          download_url: >-
-            https://raw.githubusercontent.com/tne-ai/studio-eli/main/Experts/markdown_to_docx
-          type: file
-          _links:
-            self: >-
-              https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/markdown_to_docx?ref=main
-            git: >-
-              https://api.github.com/repos/tne-ai/studio-eli/git/blobs/cc89045f5316e5a5e96e7efaeaea35b8a05a223f
-            html: >-
-              https://github.com/tne-ai/studio-eli/blob/main/Experts/markdown_to_docx
-    width: 212
-    height: 226
-    selected: false
     positionAbsolute:
-      x: 770.3221024832056
-      'y': 86.00444154359363
-    dragging: false
+      x: 723.206423305429
+      'y': 295.0303293086621
   - id: I2kQkZrX0yYGNg19LPvb1
     type: python_code
     position:
-      x: 1062.059537943204
-      'y': 985.8734032990443
+      x: 694.5178054917353
+      'y': 712.0923168811136
     data:
       id: I2kQkZrX0yYGNg19LPvb1
       title: New Code
@@ -119,23 +57,13 @@ nodes:
     height: 348
     selected: false
     positionAbsolute:
-      x: 1062.059537943204
-      'y': 985.8734032990443
+      x: 694.5178054917353
+      'y': 712.0923168811136
     dragging: false
 edges:
-  - source: TDn8IA4bWgA314OjtPmpd
-    sourceHandle: r
-    target: I2kQkZrX0yYGNg19LPvb1
-    targetHandle: t
-    id: DrErct
-  - source: 1SXy0b6kJoS_t2WsGPOv4
-    sourceHandle: b
-    target: TDn8IA4bWgA314OjtPmpd
-    targetHandle: t
-    id: lU6YhF
   - source: 3PnHBRUTkeYgW6ckKlo41
     sourceHandle: b
-    target: TDn8IA4bWgA314OjtPmpd
-    targetHandle: l
-    id: N7KBPr
+    target: I2kQkZrX0yYGNg19LPvb1
+    targetHandle: t
+    id: bUg-Ks
 description: null
