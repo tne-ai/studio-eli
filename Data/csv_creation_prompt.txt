@@ -1,0 +1,1 @@
+Extract the relevant table info from the inputted json and create a properly formatted CSV file with containing the table data.
