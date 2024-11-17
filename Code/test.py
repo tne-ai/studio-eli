@@ -10,3 +10,4 @@ else:
     text = "<ERROR>" 
 
 session.upload_object("test_output.txt", text)
+result = text
