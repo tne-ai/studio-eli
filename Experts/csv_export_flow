@@ -36,26 +36,10 @@ nodes:
       flowState: *ref_0
     width: 212
     height: 226
-    selected: true
+    selected: false
     positionAbsolute:
       x: 449.88940247822813
       'y': -399.5485467065557
-    dragging: false
-  - id: LvjhFpXBuf8qv3Qkomscz
-    type: text
-    position:
-      x: 105.52543392241125
-      'y': -388.8633187471653
-    data:
-      id: LvjhFpXBuf8qv3Qkomscz
-      title: Text
-      input: Extract relevant table information and create corresponding csv file.
-    width: 212
-    height: 286
-    selected: false
-    positionAbsolute:
-      x: 105.52543392241125
-      'y': -388.8633187471653
     dragging: false
   - id: u7m0iEI4xoBBgmlQp3jDo
     type: out
@@ -79,11 +63,6 @@ edges:
     target: u7m0iEI4xoBBgmlQp3jDo
     targetHandle: t
     id: wk1goo
-  - source: LvjhFpXBuf8qv3Qkomscz
-    sourceHandle: t
-    target: zPSURRDgwmRk7f8q6UWgD
-    targetHandle: t
-    id: Y8r3S-
   - source: 9kH31ORkuXt3-NLg_70o3
     sourceHandle: b
     target: zPSURRDgwmRk7f8q6UWgD
