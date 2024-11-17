@@ -36,33 +36,57 @@ nodes:
       flowState: *ref_0
     width: 212
     height: 226
-    selected: true
+    selected: false
     positionAbsolute:
       x: 449.88940247822813
       'y': -397.70871917424984
     dragging: false
-  - id: u7m0iEI4xoBBgmlQp3jDo
-    type: out
+  - id: QoH4X2P3L0Xf0PeNohfEI
+    type: file
     position:
-      x: 260.0858458101985
-      'y': 634.7730475188116
+      x: 172.5687701716837
+      'y': -364.2240751548566
     data:
-      id: u7m0iEI4xoBBgmlQp3jDo
-      title: Save File
-      outputName: test_output.csv
+      id: QoH4X2P3L0Xf0PeNohfEI
+      title: Data
+      fileName: csv_creation_prompt.txt
+      flowState:
+        backend: git
+        repo: studio-eli
+        content:
+          name: csv_export_flow
+          path: Experts/csv_export_flow
+          sha: ab2cb88916d72388d39f13ce701d18d5a1fbfc9c
+          size: 1627
+          url: >-
+            https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/csv_export_flow?ref=main
+          html_url: >-
+            https://github.com/tne-ai/studio-eli/blob/main/Experts/csv_export_flow
+          git_url: >-
+            https://api.github.com/repos/tne-ai/studio-eli/git/blobs/ab2cb88916d72388d39f13ce701d18d5a1fbfc9c
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/studio-eli/main/Experts/csv_export_flow
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/csv_export_flow?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/studio-eli/git/blobs/ab2cb88916d72388d39f13ce701d18d5a1fbfc9c
+            html: >-
+              https://github.com/tne-ai/studio-eli/blob/main/Experts/csv_export_flow
     width: 212
-    height: 190
-    selected: false
+    height: 250
+    selected: true
     positionAbsolute:
-      x: 260.0858458101985
-      'y': 634.7730475188116
+      x: 172.5687701716837
+      'y': -364.2240751548566
     dragging: false
 edges:
-  - source: zPSURRDgwmRk7f8q6UWgD
+  - source: QoH4X2P3L0Xf0PeNohfEI
     sourceHandle: b
-    target: u7m0iEI4xoBBgmlQp3jDo
+    target: zPSURRDgwmRk7f8q6UWgD
     targetHandle: t
-    id: wk1goo
+    id: ZrWKsb
   - source: 9kH31ORkuXt3-NLg_70o3
     sourceHandle: b
     target: zPSURRDgwmRk7f8q6UWgD
