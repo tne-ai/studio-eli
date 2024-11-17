@@ -8,4 +8,4 @@ if type(PROCESS_INPUT) is str:
 else:
     text = "<ERROR>" 
 
-result = PROCESS_INPUT
+result = text
