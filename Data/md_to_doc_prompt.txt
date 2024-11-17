@@ -1,6 +1,6 @@
-Ensure you are using the TNE SDK to load and save files. Here is an example:
+Ensure you are using the TNE SDK to load files correctly. Here is an example:
 
 from tne.TNE import TNE
 session = TNE(uid=UID, bucket_name=BUCKET, project=PROJECT, version=VERSION)
 content = session.get_object("FILENAME")
-session.upload_object({filename goes here},{data goes here})
+
