@@ -13,13 +13,13 @@ nodes:
       toolCode: ''
       outputType: overwrite
       outputToCanvas: false
-      useUserQuery: false
+      useUserQuery: true
       flowState: &ref_0
         backend: git
         repo: studio-eli
     width: 212
     height: 490
-    selected: false
+    selected: true
     positionAbsolute:
       x: 263.7199439966878
       'y': 41.766727155942114
@@ -76,7 +76,7 @@ nodes:
               https://github.com/tne-ai/studio-eli/blob/main/Experts/csv_export_flow
     width: 212
     height: 250
-    selected: true
+    selected: false
     positionAbsolute:
       x: 172.5687701716837
       'y': -364.2240751548566
