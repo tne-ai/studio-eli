@@ -2,8 +2,8 @@ nodes:
   - id: zPSURRDgwmRk7f8q6UWgD
     type: llm
     position:
-      x: 202.26282432130347
-      'y': 52.94074891510289
+      x: 263.7199439966878
+      'y': 41.766727155942114
     data:
       id: zPSURRDgwmRk7f8q6UWgD
       title: generate CSV formatted text
@@ -19,10 +19,10 @@ nodes:
         repo: studio-eli
     width: 212
     height: 490
-    selected: false
+    selected: true
     positionAbsolute:
-      x: 202.26282432130347
-      'y': 52.94074891510289
+      x: 263.7199439966878
+      'y': 41.766727155942114
     dragging: false
   - id: 9kH31ORkuXt3-NLg_70o3
     type: file
@@ -81,28 +81,28 @@ nodes:
       x: 172.5687701716837
       'y': -364.2240751548566
     dragging: false
-  - id: aHnA50i_8X5g6A-szKjHy
+  - id: pqIe5Sk4UZxDmVvwUZmlA
     type: out
     position:
-      x: 576.458896392997
-      'y': 278.6370410549534
+      x: 697.3988229365893
+      'y': 324.4964217050456
     data:
-      id: aHnA50i_8X5g6A-szKjHy
+      id: pqIe5Sk4UZxDmVvwUZmlA
       title: Save File
       outputName: output.csv
     width: 212
     height: 190
     selected: false
     positionAbsolute:
-      x: 576.458896392997
-      'y': 278.6370410549534
+      x: 697.3988229365893
+      'y': 324.4964217050456
     dragging: false
 edges:
   - source: zPSURRDgwmRk7f8q6UWgD
     sourceHandle: b
-    target: aHnA50i_8X5g6A-szKjHy
+    target: pqIe5Sk4UZxDmVvwUZmlA
     targetHandle: t
-    id: HFJGvK
+    id: egjqXa
   - source: QoH4X2P3L0Xf0PeNohfEI
     sourceHandle: b
     target: zPSURRDgwmRk7f8q6UWgD
