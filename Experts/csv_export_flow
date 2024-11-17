@@ -19,7 +19,7 @@ nodes:
         repo: studio-eli
     width: 212
     height: 490
-    selected: true
+    selected: false
     positionAbsolute:
       x: 263.7199439966878
       'y': 41.766727155942114
@@ -32,11 +32,11 @@ nodes:
     data:
       id: 9kH31ORkuXt3-NLg_70o3
       title: Data
-      fileName: inventory-reco.json
+      fileName: inventory-reco.txt
       flowState: *ref_0
     width: 212
     height: 226
-    selected: false
+    selected: true
     positionAbsolute:
       x: 449.88940247822813
       'y': -295.6151988442962
