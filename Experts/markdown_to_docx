@@ -26,18 +26,16 @@ nodes:
     data:
       id: TDn8IA4bWgA314OjtPmpd
       title: Generate Code
-      prompt: >-
-        Given the markdown file and the code generation instructions, generate
-        the python code to convert the markdown into a word document
+      prompt: Given the markdown file, generate a corresponding word document.
       outputType: overwrite
-      outputToCanvas: true
+      outputToCanvas: false
       useUserQuery: false
       apiKey: OPENAI_API_KEY
-      engineName: openai-gpt
-      modelName: gpt-4o
+      engineName: tne
+      modelName: Llama-3.1-405B-Instruct
     width: 214
-    height: 586
-    selected: false
+    height: 538
+    selected: true
     positionAbsolute:
       x: 744.929413833323
       'y': 460.02388778472346
@@ -53,7 +51,7 @@ nodes:
       outputName: md_to_docx.txt
     width: 212
     height: 190
-    selected: true
+    selected: false
     positionAbsolute:
       x: 701.1554841084433
       'y': 1131.680122000847
