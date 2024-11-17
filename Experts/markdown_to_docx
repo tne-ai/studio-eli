@@ -35,33 +35,57 @@ nodes:
       modelName: Llama-3.1-405B-Instruct
     width: 214
     height: 538
-    selected: true
+    selected: false
     positionAbsolute:
       x: 744.929413833323
       'y': 460.02388778472346
     dragging: false
-  - id: AZmlAl90_zDdlD2Ift0s_
-    type: out
+  - id: 1SXy0b6kJoS_t2WsGPOv4
+    type: file
     position:
-      x: 701.1554841084433
-      'y': 1131.680122000847
+      x: 770.3221024832056
+      'y': 86.00444154359363
     data:
-      id: AZmlAl90_zDdlD2Ift0s_
-      title: Save generated code
-      outputName: md_to_docx.txt
+      id: 1SXy0b6kJoS_t2WsGPOv4
+      title: PROMPT
+      fileName: md_to_doc_prompt.txt
+      flowState:
+        backend: git
+        repo: studio-eli
+        content:
+          name: markdown_to_docx
+          path: Experts/markdown_to_docx
+          sha: cc89045f5316e5a5e96e7efaeaea35b8a05a223f
+          size: 1680
+          url: >-
+            https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/markdown_to_docx?ref=main
+          html_url: >-
+            https://github.com/tne-ai/studio-eli/blob/main/Experts/markdown_to_docx
+          git_url: >-
+            https://api.github.com/repos/tne-ai/studio-eli/git/blobs/cc89045f5316e5a5e96e7efaeaea35b8a05a223f
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/studio-eli/main/Experts/markdown_to_docx
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/markdown_to_docx?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/studio-eli/git/blobs/cc89045f5316e5a5e96e7efaeaea35b8a05a223f
+            html: >-
+              https://github.com/tne-ai/studio-eli/blob/main/Experts/markdown_to_docx
     width: 212
-    height: 190
+    height: 226
     selected: false
     positionAbsolute:
-      x: 701.1554841084433
-      'y': 1131.680122000847
+      x: 770.3221024832056
+      'y': 86.00444154359363
     dragging: false
 edges:
-  - source: TDn8IA4bWgA314OjtPmpd
+  - source: 1SXy0b6kJoS_t2WsGPOv4
     sourceHandle: b
-    target: AZmlAl90_zDdlD2Ift0s_
+    target: TDn8IA4bWgA314OjtPmpd
     targetHandle: t
-    id: P4V9gw
+    id: lU6YhF
   - source: 3PnHBRUTkeYgW6ckKlo41
     sourceHandle: b
     target: TDn8IA4bWgA314OjtPmpd
