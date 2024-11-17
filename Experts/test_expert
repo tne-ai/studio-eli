@@ -1,0 +1,47 @@
+nodes:
+  - id: K2MJYN7O0LZY4D4uNRlUN
+    type: llm
+    position:
+      x: 475
+      'y': 274.5
+    data:
+      id: K2MJYN7O0LZY4D4uNRlUN
+      title: model
+      input: ''
+      slashgptManifest: gpt4o_concise.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState: &ref_0
+        backend: git
+        repo: studio-eli
+    width: 212
+    height: 466
+    selected: false
+    dragging: false
+  - id: dMp5RGi_1Mq161Hye-JAl
+    type: file
+    position:
+      x: 495.0546448087432
+      'y': -107.80245901639341
+    data:
+      id: dMp5RGi_1Mq161Hye-JAl
+      title: Data
+      fileName: test_prompt.txt
+      flowState: *ref_0
+    width: 212
+    height: 226
+    selected: true
+    positionAbsolute:
+      x: 495.0546448087432
+      'y': -107.80245901639341
+    dragging: false
+edges:
+  - source: dMp5RGi_1Mq161Hye-JAl
+    sourceHandle: b
+    target: K2MJYN7O0LZY4D4uNRlUN
+    targetHandle: t
+    id: s3uL0S
+description: null
