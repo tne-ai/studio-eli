@@ -4,7 +4,7 @@ from docx import Document
 from docx.shared import Pt
 
 session = TNE(uid=UID, bucket_name=BUCKET, project=PROJECT, version=VERSION)
-
+text = PROCESS_INPUT
 # Load markdown file
 # md_file = session.get_object("inventory-reco.md")
 md_file = """
@@ -97,4 +97,4 @@ document.save("inventory-reco.docx")
 
 session.upload_object("inventory-reco.docx", document)
 
-result = "output message"
+result = text
