@@ -28,14 +28,14 @@ nodes:
       title: Generate Code
       prompt: Given the markdown file, generate a corresponding word document.
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: false
       apiKey: OPENAI_API_KEY
       engineName: tne
       modelName: Llama-3.1-405B-Instruct
     width: 214
     height: 538
-    selected: false
+    selected: true
     positionAbsolute:
       x: 744.929413833323
       'y': 460.02388778472346
@@ -117,7 +117,7 @@ nodes:
               https://github.com/tne-ai/studio-eli/blob/main/Experts/markdown_to_docx
     width: 212
     height: 348
-    selected: true
+    selected: false
     positionAbsolute:
       x: 1062.059537943204
       'y': 985.8734032990443
