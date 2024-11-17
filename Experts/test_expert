@@ -38,28 +38,52 @@ nodes:
       x: 495.0546448087432
       'y': -107.80245901639341
     dragging: false
-  - id: Kn0qbq0DGXouGpuMYHAPF
-    type: out
+  - id: veFOBBpuhkwQvcEW8zPvG
+    type: python_code
     position:
-      x: 803.9141553569829
-      'y': 570.6656757256114
+      x: 855.0833832114986
+      'y': 427.57492595946684
     data:
-      id: Kn0qbq0DGXouGpuMYHAPF
-      title: Save File
-      outputName: story.txt
+      id: veFOBBpuhkwQvcEW8zPvG
+      title: test run code
+      module: test.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState:
+        backend: git
+        repo: studio-eli
+        content:
+          name: test_expert
+          path: Experts/test_expert
+          sha: a9807be58d24e5b4def5b6a5d9c486d6a1d5ace6
+          size: 1487
+          url: >-
+            https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/test_expert?ref=main
+          html_url: https://github.com/tne-ai/studio-eli/blob/main/Experts/test_expert
+          git_url: >-
+            https://api.github.com/repos/tne-ai/studio-eli/git/blobs/a9807be58d24e5b4def5b6a5d9c486d6a1d5ace6
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/studio-eli/main/Experts/test_expert
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/test_expert?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/studio-eli/git/blobs/a9807be58d24e5b4def5b6a5d9c486d6a1d5ace6
+            html: https://github.com/tne-ai/studio-eli/blob/main/Experts/test_expert
     width: 212
-    height: 190
+    height: 348
     selected: true
     positionAbsolute:
-      x: 803.9141553569829
-      'y': 570.6656757256114
+      x: 855.0833832114986
+      'y': 427.57492595946684
     dragging: false
 edges:
   - source: K2MJYN7O0LZY4D4uNRlUN
     sourceHandle: r
-    target: Kn0qbq0DGXouGpuMYHAPF
-    targetHandle: t
-    id: NYgr_h
+    target: veFOBBpuhkwQvcEW8zPvG
+    targetHandle: l
+    id: nqzKRQ
   - source: dMp5RGi_1Mq161Hye-JAl
     sourceHandle: b
     target: K2MJYN7O0LZY4D4uNRlUN
