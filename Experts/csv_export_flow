@@ -13,7 +13,7 @@ nodes:
         repo: studio-eli
     width: 212
     height: 226
-    selected: true
+    selected: false
     positionAbsolute:
       x: 449.88940247822813
       'y': -397.70871917424984
@@ -117,7 +117,7 @@ nodes:
               https://github.com/tne-ai/studio-eli/blob/main/Experts/csv_export_flow
     width: 212
     height: 348
-    selected: false
+    selected: true
     positionAbsolute:
       x: 696.9702694788492
       'y': 153.12245653786874
