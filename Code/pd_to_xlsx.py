@@ -1,5 +1,7 @@
 import pandas as pd 
 from tne.TNE import TNE
+from io import BytesIO
+
 
 session = TNE(uid=UID, bucket_name=BUCKET, project=PROJECT, version=VERSION)
 
