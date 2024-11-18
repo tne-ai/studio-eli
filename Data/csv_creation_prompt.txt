@@ -1,1 +1,7 @@
 Extract the relevant table info from the inputted markdown file and generate a Pandas dataframe (pd.DataFrame) containing the table data. Embed other necessary textual data, such as titles and important comments, in the dataframe. 
+
+You MUST use the TNE SDK to access data:
+
+from tne.TNE import TNE
+session = TNE(uid=UID, bucket_name=BUCKET, project=PROJECT, version=VERSION)
+df = session.get_object("FILENAME")
