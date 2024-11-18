@@ -92,9 +92,11 @@ for line in html.splitlines():
             for i, cell in enumerate(row.split("|")[1:-1]):
                 row_cells[i].text = cell.strip()
 
-# Save the document
+# Save the document to a file
 document.save("inventory-reco.docx")
 
-session.upload_object("inventory-reco.docx", document)
+# Open the file in binary mode and upload it
+with open("inventory-reco.docx", "rb") as f:
+    session.upload_object("inventory-reco.docx", f.read())
 
 result = text
