@@ -1,29 +1,4 @@
 nodes:
-  - id: zPSURRDgwmRk7f8q6UWgD
-    type: llm
-    position:
-      x: 263.7199439966878
-      'y': 41.766727155942114
-    data:
-      id: zPSURRDgwmRk7f8q6UWgD
-      title: generate CSV formatted text
-      input: ''
-      slashgptManifest: csv_formatter.model
-      toolJson: ''
-      toolCode: ''
-      outputType: overwrite
-      outputToCanvas: false
-      useUserQuery: false
-      flowState: &ref_0
-        backend: git
-        repo: studio-eli
-    width: 212
-    height: 490
-    selected: false
-    positionAbsolute:
-      x: 263.7199439966878
-      'y': 41.766727155942114
-    dragging: false
   - id: 9kH31ORkuXt3-NLg_70o3
     type: file
     position:
@@ -33,7 +8,9 @@ nodes:
       id: 9kH31ORkuXt3-NLg_70o3
       title: Data
       fileName: inventory-reco.json
-      flowState: *ref_0
+      flowState:
+        backend: git
+        repo: studio-eli
     width: 212
     height: 226
     selected: false
@@ -81,15 +58,37 @@ nodes:
       x: 172.5687701716837
       'y': -364.2240751548566
     dragging: false
+  - id: _hkg92GUWBeCIPzfswILn
+    type: code_generation
+    position:
+      x: 342.3912932881026
+      'y': -13.685696888446419
+    data:
+      id: _hkg92GUWBeCIPzfswILn
+      title: generate dataframe
+      prompt: For the given question, you must generate a pd.DataFrame.
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      apiKey: OPENAI_API_KEY
+      engineName: openai-gpt
+      modelName: gpt-4o
+    width: 214
+    height: 490
+    selected: true
+    positionAbsolute:
+      x: 342.3912932881026
+      'y': -13.685696888446419
+    dragging: false
 edges:
-  - source: QoH4X2P3L0Xf0PeNohfEI
-    sourceHandle: b
-    target: zPSURRDgwmRk7f8q6UWgD
-    targetHandle: t
-    id: ZrWKsb
   - source: 9kH31ORkuXt3-NLg_70o3
     sourceHandle: b
-    target: zPSURRDgwmRk7f8q6UWgD
+    target: _hkg92GUWBeCIPzfswILn
     targetHandle: t
-    id: jGXagl
+    id: Jk_xYd
+  - source: QoH4X2P3L0Xf0PeNohfEI
+    sourceHandle: b
+    target: _hkg92GUWBeCIPzfswILn
+    targetHandle: t
+    id: w8dJqS
 description: null
