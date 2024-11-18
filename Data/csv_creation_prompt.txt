@@ -1,1 +1,1 @@
-Extract the relevant table info from the inputted json and create a properly formatted CSV file with containing the table data.
+Extract the relevant table info from the inputted markdown file and generate a Pandas dataframe (pd.DataFrame) containing the table data. Embed other necessary textual data, such as titles and important comments, in the dataframe. 
