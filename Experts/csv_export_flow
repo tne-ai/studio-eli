@@ -68,7 +68,7 @@ nodes:
       title: generate dataframe
       prompt: For the given question, you must generate a pd.DataFrame.
       outputType: overwrite
-      outputToCanvas: true
+      outputToCanvas: false
       useUserQuery: false
       apiKey: OPENAI_API_KEY
       engineName: openai-gpt
@@ -117,12 +117,33 @@ nodes:
               https://github.com/tne-ai/studio-eli/blob/main/Experts/csv_export_flow
     width: 212
     height: 348
-    selected: true
+    selected: false
     positionAbsolute:
       x: 696.9702694788492
       'y': 153.12245653786874
     dragging: false
+  - id: ynhzcxqjyg7p1lCEujwKy
+    type: out
+    position:
+      x: 367.8795887593289
+      'y': 671.0040045703438
+    data:
+      id: ynhzcxqjyg7p1lCEujwKy
+      title: Save File
+      outputName: generated_code.txt
+    width: 212
+    height: 190
+    selected: true
+    positionAbsolute:
+      x: 367.8795887593289
+      'y': 671.0040045703438
+    dragging: false
 edges:
+  - source: _hkg92GUWBeCIPzfswILn
+    sourceHandle: b
+    target: ynhzcxqjyg7p1lCEujwKy
+    targetHandle: t
+    id: TY-LeZ
   - source: _hkg92GUWBeCIPzfswILn
     sourceHandle: r
     target: ADRCdG5uaVgrCmVBvT7kz
