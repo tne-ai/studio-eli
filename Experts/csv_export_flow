@@ -68,14 +68,14 @@ nodes:
       title: generate dataframe
       prompt: For the given markdown, you must generate a pd.DataFrame.
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: false
       apiKey: OPENAI_API_KEY
       engineName: tne
       modelName: Llama-3.1-405B-Instruct
     width: 214
     height: 538
-    selected: false
+    selected: true
     positionAbsolute:
       x: 342.3912932881026
       'y': -13.685696888446419
@@ -117,7 +117,7 @@ nodes:
               https://github.com/tne-ai/studio-eli/blob/main/Experts/csv_export_flow
     width: 212
     height: 348
-    selected: true
+    selected: false
     positionAbsolute:
       x: 696.9702694788492
       'y': 153.12245653786874
