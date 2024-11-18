@@ -96,7 +96,7 @@ for line in html.splitlines():
 document.save("inventory-reco-docsaved.docx")
 
 # Open the file in binary mode and upload it
-with open("inventory-reco.docx", "rb") as f:
+with open("inventory-reco-docsaved.docx", "rb") as f:
     session.upload_object("inventory-reco-sessionsaved.docx", f.read())
 
 result = text
