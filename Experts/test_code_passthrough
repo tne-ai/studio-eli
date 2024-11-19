@@ -1,0 +1,46 @@
+nodes:
+  - id: 3aupaaQP8zuLPCqsV9DI3
+    type: file
+    position:
+      x: 524.5
+      'y': 257
+    data:
+      id: 3aupaaQP8zuLPCqsV9DI3
+      title: Data
+      fileName: inventory-reco.md
+      flowState: &ref_0
+        backend: git
+        repo: studio-eli
+    width: 212
+    height: 226
+    selected: false
+    positionAbsolute:
+      x: 524.5
+      'y': 257
+    dragging: false
+  - id: lE7mEKs77-OhhEVPYuQGs
+    type: python_code
+    position:
+      x: 524.504470719584
+      'y': 516.2435466954602
+    data:
+      id: lE7mEKs77-OhhEVPYuQGs
+      title: New Code
+      module: test.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState: *ref_0
+    width: 212
+    height: 348
+    selected: true
+    positionAbsolute:
+      x: 524.504470719584
+      'y': 516.2435466954602
+    dragging: false
+edges:
+  - source: 3aupaaQP8zuLPCqsV9DI3
+    sourceHandle: b
+    target: lE7mEKs77-OhhEVPYuQGs
+    targetHandle: t
+    id: byrq5Z
+description: null
