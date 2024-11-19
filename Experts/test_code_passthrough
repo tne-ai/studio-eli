@@ -13,7 +13,7 @@ nodes:
         repo: studio-eli
     width: 212
     height: 226
-    selected: true
+    selected: false
     positionAbsolute:
       x: 524.5
       'y': 257
@@ -27,13 +27,13 @@ nodes:
       id: 42Hc66R58_OkQpltXxiY7
       title: Generate Code
       prompt: ''
-      outputType: overwrite
+      outputType: dispatch
       outputToCanvas: false
       useUserQuery: false
       apiKey: OPENAI_API_KEY
       engineName: openai-gpt
       modelName: gpt-4o
-    width: 214
+    width: 227
     height: 466
     selected: false
     positionAbsolute:
@@ -80,7 +80,54 @@ nodes:
       x: 233.41873504606963
       'y': 168.22286971741772
     dragging: false
+  - id: XmGeOwMHo3f2zXMXI1kdZ
+    type: python_code
+    position:
+      x: 756.2470984712112
+      'y': 808.3432554559855
+    data:
+      id: XmGeOwMHo3f2zXMXI1kdZ
+      title: New Code
+      module: ''
+      outputType: overwrite
+      outputToCanvas: false
+      flowState:
+        backend: git
+        repo: studio-eli
+        content:
+          name: test_code_passthrough
+          path: Experts/test_code_passthrough
+          sha: af4d355d3d33be9ba94b63712a6dfdd3ec29c1bb
+          size: 2689
+          url: >-
+            https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/test_code_passthrough?ref=main
+          html_url: >-
+            https://github.com/tne-ai/studio-eli/blob/main/Experts/test_code_passthrough
+          git_url: >-
+            https://api.github.com/repos/tne-ai/studio-eli/git/blobs/af4d355d3d33be9ba94b63712a6dfdd3ec29c1bb
+          download_url: >-
+            https://raw.githubusercontent.com/tne-ai/studio-eli/main/Experts/test_code_passthrough
+          type: file
+          _links:
+            self: >-
+              https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/test_code_passthrough?ref=main
+            git: >-
+              https://api.github.com/repos/tne-ai/studio-eli/git/blobs/af4d355d3d33be9ba94b63712a6dfdd3ec29c1bb
+            html: >-
+              https://github.com/tne-ai/studio-eli/blob/main/Experts/test_code_passthrough
+    width: 212
+    height: 348
+    selected: false
+    positionAbsolute:
+      x: 756.2470984712112
+      'y': 808.3432554559855
+    dragging: false
 edges:
+  - source: 42Hc66R58_OkQpltXxiY7
+    sourceHandle: r
+    target: XmGeOwMHo3f2zXMXI1kdZ
+    targetHandle: t
+    id: 5M6ThQ
   - source: mitqYPqVJZ5OgtkdGC3WZ
     sourceHandle: b
     target: 42Hc66R58_OkQpltXxiY7
