@@ -11,7 +11,7 @@ if type(PROCESS_INPUT) is pd.DataFrame:
     else:
         text = tabulate(PROCESS_INPUT, headers="keys", tablefmt="pipe", showindex=False)
 elif type(PROCESS_INPUT) is str:
-    text = PROCESS_INPUT 
+    text = "here is the input: " + PROCESS_INPUT 
 else:
     text = "<ERROR>" 
 
