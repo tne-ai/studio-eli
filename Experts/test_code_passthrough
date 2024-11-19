@@ -28,7 +28,7 @@ nodes:
       title: Generate Code
       prompt: ''
       outputType: dispatch
-      outputToCanvas: true
+      outputToCanvas: false
       useUserQuery: false
       apiKey: OPENAI_API_KEY
       engineName: openai-gpt
