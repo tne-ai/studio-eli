@@ -24,8 +24,9 @@ metrics_df = pd.read_csv(StringIO(sections[0]))
 
 # Process the second section (Detailed Data Table)
 # Use the first row as the header and skip invalid rows like "Totals"
-details_section = StringIO("\n".join([row for row in sections[1].splitlines() if "Totals" not in row]))
-details_df = pd.read_csv(details_section)
+# details_section = StringIO("\n".join([row for row in sections[1].splitlines() if "Totals" not in row]))
+# details_df = pd.read_csv(details_section)
+details_df = pd.read_csv(StringIO(sections[1]))
 
 # Save both DataFrames into a single CSV
 # merged_output_buffer = StringIO()
