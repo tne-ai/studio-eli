@@ -32,8 +32,8 @@ if type(PROCESS_INPUT) is pd.DataFrame:
         result = "<EMPTY DATAFRAME>"
     else:
         excel_file_name = 'output.xlsx' 
-        # result = df_to_excel_with_sdk(PROCESS_INPUT, excel_file_name, session)
-        result = tabulate(PROCESS_INPUT, headers="keys", tablefmt="pipe", showindex=False)
+        result = df_to_excel_with_sdk(PROCESS_INPUT, excel_file_name, session)
+        # result = tabulate(PROCESS_INPUT, headers="keys", tablefmt="pipe", showindex=False)
 elif type(PROCESS_INPUT) is str:
     result = PROCESS_INPUT 
 else:
