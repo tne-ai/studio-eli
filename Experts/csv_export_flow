@@ -2,8 +2,8 @@ nodes:
   - id: 9kH31ORkuXt3-NLg_70o3
     type: file
     position:
-      x: 449.88940247822813
-      'y': -397.70871917424984
+      x: 605.2088378500362
+      'y': -396.001912192142
     data:
       id: 9kH31ORkuXt3-NLg_70o3
       title: Data
@@ -15,34 +15,32 @@ nodes:
     height: 226
     selected: false
     positionAbsolute:
-      x: 449.88940247822813
-      'y': -397.70871917424984
+      x: 605.2088378500362
+      'y': -396.001912192142
     dragging: false
-  - id: kNVvt_-S5HD9y9lpuNVTJ
-    type: python_code
+  - id: hK8iCCUKr52FH-nhYoqUI
+    type: file
     position:
-      x: 424.24521372352876
-      'y': -67.71564999114626
+      x: 350.4313881141444
+      'y': -363.1846688543425
     data:
-      id: kNVvt_-S5HD9y9lpuNVTJ
-      title: New Code
-      module: code_gen_md_to_pd.py
-      outputType: overwrite
-      outputToCanvas: true
-      flowState:
+      id: hK8iCCUKr52FH-nhYoqUI
+      title: Data
+      fileName: md_to_csv_prompt.txt
+      flowState: &ref_0
         backend: git
         repo: studio-eli
         content:
           name: csv_export_flow
           path: Experts/csv_export_flow
-          sha: f35854a1db0e2ac3004aea179dd80f9825c16082
-          size: 3266
+          sha: 5feff9f8296cbc1ddd6d163687fe535534890fee
+          size: 3760
           url: >-
             https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/csv_export_flow?ref=main
           html_url: >-
             https://github.com/tne-ai/studio-eli/blob/main/Experts/csv_export_flow
           git_url: >-
-            https://api.github.com/repos/tne-ai/studio-eli/git/blobs/f35854a1db0e2ac3004aea179dd80f9825c16082
+            https://api.github.com/repos/tne-ai/studio-eli/git/blobs/5feff9f8296cbc1ddd6d163687fe535534890fee
           download_url: >-
             https://raw.githubusercontent.com/tne-ai/studio-eli/main/Experts/csv_export_flow
           type: file
@@ -50,67 +48,72 @@ nodes:
             self: >-
               https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/csv_export_flow?ref=main
             git: >-
-              https://api.github.com/repos/tne-ai/studio-eli/git/blobs/f35854a1db0e2ac3004aea179dd80f9825c16082
+              https://api.github.com/repos/tne-ai/studio-eli/git/blobs/5feff9f8296cbc1ddd6d163687fe535534890fee
             html: >-
               https://github.com/tne-ai/studio-eli/blob/main/Experts/csv_export_flow
     width: 212
-    height: 372
+    height: 226
     selected: false
     dragging: false
     positionAbsolute:
-      x: 424.24521372352876
-      'y': -67.71564999114626
-  - id: zX3mdPrb28WKMDmwI3faX
-    type: python_code
+      x: 350.4313881141444
+      'y': -363.1846688543425
+  - id: 4pBW5ZAt7Yt7Sxbeyuzge
+    type: llm
     position:
-      x: 597.1413409223879
-      'y': 390.0937452829279
+      x: 485.26913970065925
+      'y': -13.289237522247356
     data:
-      id: zX3mdPrb28WKMDmwI3faX
-      title: New Code
-      module: test.py
+      id: 4pBW5ZAt7Yt7Sxbeyuzge
+      title: New Model
+      input: ''
+      slashgptManifest: csv_formatter.model
+      toolJson: ''
+      toolCode: ''
       outputType: overwrite
       outputToCanvas: false
-      flowState:
-        backend: git
-        repo: studio-eli
-        content:
-          name: csv_export_flow
-          path: Experts/csv_export_flow
-          sha: bb0369eeb036f4318f088a96bd652ca74789f822
-          size: 3762
-          url: >-
-            https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/csv_export_flow?ref=main
-          html_url: >-
-            https://github.com/tne-ai/studio-eli/blob/main/Experts/csv_export_flow
-          git_url: >-
-            https://api.github.com/repos/tne-ai/studio-eli/git/blobs/bb0369eeb036f4318f088a96bd652ca74789f822
-          download_url: >-
-            https://raw.githubusercontent.com/tne-ai/studio-eli/main/Experts/csv_export_flow
-          type: file
-          _links:
-            self: >-
-              https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/csv_export_flow?ref=main
-            git: >-
-              https://api.github.com/repos/tne-ai/studio-eli/git/blobs/bb0369eeb036f4318f088a96bd652ca74789f822
-            html: >-
-              https://github.com/tne-ai/studio-eli/blob/main/Experts/csv_export_flow
+      useUserQuery: false
+      flowState: *ref_0
+    width: 212
+    height: 466
+    selected: false
+    positionAbsolute:
+      x: 485.26913970065925
+      'y': -13.289237522247356
+    dragging: false
+  - id: CVlU8XFz0u9td7hfsh_x3
+    type: python_code
+    position:
+      x: 811.2692732832454
+      'y': 322.95173795298547
+    data:
+      id: CVlU8XFz0u9td7hfsh_x3
+      title: New Code
+      module: llm_output_to_csv.py
+      outputType: overwrite
+      outputToCanvas: false
+      flowState: *ref_0
     width: 212
     height: 348
     selected: true
     positionAbsolute:
-      x: 597.1413409223879
-      'y': 390.0937452829279
+      x: 811.2692732832454
+      'y': 322.95173795298547
     dragging: false
 edges:
-  - source: kNVvt_-S5HD9y9lpuNVTJ
-    sourceHandle: b
-    target: zX3mdPrb28WKMDmwI3faX
+  - source: 4pBW5ZAt7Yt7Sxbeyuzge
+    sourceHandle: r
+    target: CVlU8XFz0u9td7hfsh_x3
     targetHandle: t
-    id: NZf79w
+    id: CH0O-5
   - source: 9kH31ORkuXt3-NLg_70o3
     sourceHandle: b
-    target: kNVvt_-S5HD9y9lpuNVTJ
+    target: 4pBW5ZAt7Yt7Sxbeyuzge
     targetHandle: t
-    id: 65r9dY
+    id: 1rwDnF
+  - source: hK8iCCUKr52FH-nhYoqUI
+    sourceHandle: b
+    target: 4pBW5ZAt7Yt7Sxbeyuzge
+    targetHandle: t
+    id: fm2jjB
 description: null
