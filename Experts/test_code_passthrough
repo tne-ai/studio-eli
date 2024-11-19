@@ -7,13 +7,13 @@ nodes:
     data:
       id: 3aupaaQP8zuLPCqsV9DI3
       title: Data
-      fileName: newness-reco.md
+      fileName: inventory-reco.md
       flowState:
         backend: git
         repo: studio-eli
     width: 212
     height: 226
-    selected: false
+    selected: true
     positionAbsolute:
       x: 524.5
       'y': 257
@@ -35,7 +35,7 @@ nodes:
       modelName: gpt-4o
     width: 214
     height: 466
-    selected: true
+    selected: false
     positionAbsolute:
       x: 402.37112150562314
       'y': 553.7778399321049
