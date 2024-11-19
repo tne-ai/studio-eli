@@ -71,10 +71,10 @@ nodes:
       outputToCanvas: false
       useUserQuery: false
       apiKey: OPENAI_API_KEY
-      engineName: openai-gpt
-      modelName: gpt-4o
+      engineName: tne
+      modelName: Llama-3.1-405B-Instruct
     width: 214
-    height: 514
+    height: 538
     selected: true
     positionAbsolute:
       x: 342.3912932881026
