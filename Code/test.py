@@ -15,5 +15,5 @@ elif type(PROCESS_INPUT) is str:
 else:
     text = "<ERROR>" 
 
-session.upload_object("test_output4.txt", text)
+session.upload_object("test_output5.txt", text)
 result = text
