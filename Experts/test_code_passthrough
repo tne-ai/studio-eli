@@ -28,14 +28,14 @@ nodes:
       title: Generate Code
       prompt: ''
       outputType: dispatch
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: false
       apiKey: OPENAI_API_KEY
       engineName: openai-gpt
       modelName: gpt-4o
     width: 227
     height: 466
-    selected: false
+    selected: true
     positionAbsolute:
       x: 402.37112150562314
       'y': 553.7778399321049
