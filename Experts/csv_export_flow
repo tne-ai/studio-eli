@@ -75,52 +75,10 @@ nodes:
       modelName: Llama-3.1-405B-Instruct
     width: 214
     height: 538
-    selected: true
+    selected: false
     positionAbsolute:
       x: 342.3912932881026
       'y': -13.685696888446419
-    dragging: false
-  - id: ADRCdG5uaVgrCmVBvT7kz
-    type: python_code
-    position:
-      x: 696.9702694788492
-      'y': 153.12245653786874
-    data:
-      id: ADRCdG5uaVgrCmVBvT7kz
-      title: PD to XLSX
-      module: pd_to_xlsx.py
-      outputType: overwrite
-      outputToCanvas: false
-      flowState:
-        backend: git
-        repo: studio-eli
-        content:
-          name: csv_export_flow
-          path: Experts/csv_export_flow
-          sha: b1aaa92ba5e283c0467df5751844e3b972eb04b0
-          size: 2768
-          url: >-
-            https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/csv_export_flow?ref=main
-          html_url: >-
-            https://github.com/tne-ai/studio-eli/blob/main/Experts/csv_export_flow
-          git_url: >-
-            https://api.github.com/repos/tne-ai/studio-eli/git/blobs/b1aaa92ba5e283c0467df5751844e3b972eb04b0
-          download_url: >-
-            https://raw.githubusercontent.com/tne-ai/studio-eli/main/Experts/csv_export_flow
-          type: file
-          _links:
-            self: >-
-              https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/csv_export_flow?ref=main
-            git: >-
-              https://api.github.com/repos/tne-ai/studio-eli/git/blobs/b1aaa92ba5e283c0467df5751844e3b972eb04b0
-            html: >-
-              https://github.com/tne-ai/studio-eli/blob/main/Experts/csv_export_flow
-    width: 212
-    height: 348
-    selected: false
-    positionAbsolute:
-      x: 696.9702694788492
-      'y': 153.12245653786874
     dragging: false
   - id: ynhzcxqjyg7p1lCEujwKy
     type: out
@@ -144,11 +102,6 @@ edges:
     target: ynhzcxqjyg7p1lCEujwKy
     targetHandle: t
     id: TY-LeZ
-  - source: _hkg92GUWBeCIPzfswILn
-    sourceHandle: r
-    target: ADRCdG5uaVgrCmVBvT7kz
-    targetHandle: l
-    id: uYfmgC
   - source: 9kH31ORkuXt3-NLg_70o3
     sourceHandle: b
     target: _hkg92GUWBeCIPzfswILn
