@@ -9,5 +9,5 @@ if type(PROCESS_INPUT) is str:
 else:
     text = "<ERROR>" 
 
-session.upload_object("test_output.txt", text)
+session.upload_object("test_output2.txt", text)
 result = text
