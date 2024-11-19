@@ -52,4 +52,4 @@ df.title = "Inventory Risk Summary"
 df.comments = "Products are selected for the clearance recommendation based on a combined ranking of worst performance"
 
 # Store result
-result = tabulate(df, headers="keys", tablefmt="pipe", showindex=False)
+result = df
