@@ -88,7 +88,7 @@ nodes:
     data:
       id: ynhzcxqjyg7p1lCEujwKy
       title: Save File
-      outputName: generated_code.txt
+      outputName: generated_code2.txt
     width: 212
     height: 190
     selected: false
