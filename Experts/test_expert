@@ -2,8 +2,8 @@ nodes:
   - id: K2MJYN7O0LZY4D4uNRlUN
     type: llm
     position:
-      x: 475
-      'y': 274.5
+      x: 541.3739838438147
+      'y': 247.95040646247423
     data:
       id: K2MJYN7O0LZY4D4uNRlUN
       title: model
@@ -12,15 +12,18 @@ nodes:
       toolJson: ''
       toolCode: ''
       outputType: overwrite
-      outputToCanvas: false
+      outputToCanvas: true
       useUserQuery: false
       flowState: &ref_0
         backend: git
         repo: studio-eli
     width: 212
     height: 466
-    selected: false
+    selected: true
     dragging: false
+    positionAbsolute:
+      x: 541.3739838438147
+      'y': 247.95040646247423
   - id: dMp5RGi_1Mq161Hye-JAl
     type: file
     position:
@@ -38,52 +41,28 @@ nodes:
       x: 495.0546448087432
       'y': -107.80245901639341
     dragging: false
-  - id: veFOBBpuhkwQvcEW8zPvG
-    type: python_code
+  - id: Qp8YMCXF4tfBwTX-7w-v7
+    type: out
     position:
-      x: 855.0833832114986
-      'y': 427.57492595946684
+      x: 836.0881957726874
+      'y': 390.30411973877904
     data:
-      id: veFOBBpuhkwQvcEW8zPvG
-      title: test run code
-      module: test.py
-      outputType: overwrite
-      outputToCanvas: false
-      flowState:
-        backend: git
-        repo: studio-eli
-        content:
-          name: test_expert
-          path: Experts/test_expert
-          sha: a9807be58d24e5b4def5b6a5d9c486d6a1d5ace6
-          size: 1487
-          url: >-
-            https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/test_expert?ref=main
-          html_url: https://github.com/tne-ai/studio-eli/blob/main/Experts/test_expert
-          git_url: >-
-            https://api.github.com/repos/tne-ai/studio-eli/git/blobs/a9807be58d24e5b4def5b6a5d9c486d6a1d5ace6
-          download_url: >-
-            https://raw.githubusercontent.com/tne-ai/studio-eli/main/Experts/test_expert
-          type: file
-          _links:
-            self: >-
-              https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/test_expert?ref=main
-            git: >-
-              https://api.github.com/repos/tne-ai/studio-eli/git/blobs/a9807be58d24e5b4def5b6a5d9c486d6a1d5ace6
-            html: https://github.com/tne-ai/studio-eli/blob/main/Experts/test_expert
+      id: Qp8YMCXF4tfBwTX-7w-v7
+      title: Save File
+      outputName: test_output3.txt
     width: 212
-    height: 348
-    selected: true
+    height: 190
+    selected: false
     positionAbsolute:
-      x: 855.0833832114986
-      'y': 427.57492595946684
+      x: 836.0881957726874
+      'y': 390.30411973877904
     dragging: false
 edges:
   - source: K2MJYN7O0LZY4D4uNRlUN
     sourceHandle: r
-    target: veFOBBpuhkwQvcEW8zPvG
-    targetHandle: l
-    id: nqzKRQ
+    target: Qp8YMCXF4tfBwTX-7w-v7
+    targetHandle: t
+    id: LQOWp7
   - source: dMp5RGi_1Mq161Hye-JAl
     sourceHandle: b
     target: K2MJYN7O0LZY4D4uNRlUN
