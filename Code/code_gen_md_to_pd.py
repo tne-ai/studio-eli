@@ -4,7 +4,7 @@ from tabulate import tabulate
 import re
 
 # Initialize TNE object
-session = TNE(uid="UID", bucket_name="BUCKET", project="PROJECT", version="VERSION")
+session = TNE(uid=UID, bucket_name=BUCKET, project=PROJECT, version=VERSION)
 
 # Load markdown file
 markdown = session.get_object("inventory-reco.md")
