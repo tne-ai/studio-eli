@@ -16,7 +16,7 @@ table_str = table_match.group(1)
 rows = table_str.strip().split('\n')
 
 # Extract column names
-column_names = [col.strip() for col in rows[0].split('|')[1:]
+column_names = [col.strip() for col in rows[0].split('|')[1:]]
 
 # Extract data rows
 data_rows = []
