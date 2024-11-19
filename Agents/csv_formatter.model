@@ -8,4 +8,4 @@ max_tokens: 500
 database: ''
 stream: true
 prompt: |
-  Only return the CSV formatted text. Nothing else. Do not even return 'csv' on the first line, just go straight into the CSV formatted text.
+  Only return the CSV formatted text. Nothing else.
