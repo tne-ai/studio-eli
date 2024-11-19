@@ -1,4 +1,4 @@
-Extract the relevant table info from the inputted markdown file and generate a Pandas dataframe (pd.DataFrame) containing the table data. Embed other necessary textual data, such as titles and important comments, in the dataframe. 
+Look at the inputted markdown and generate the code that would process this markdown and convert it to a csv file. Make sure to include all relevant info in the markdown, embedding other necessary textual data, such as titles and important comments, in the csv along with the table data. 
 
 You MUST use the TNE SDK to access data:
 
