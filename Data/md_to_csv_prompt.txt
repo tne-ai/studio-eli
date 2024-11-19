@@ -1,0 +1,1 @@
+Look at the inputted markdown file and generate CSV formatted text containing all table info in the markdown and any relevant textual information, like titles and comments.
