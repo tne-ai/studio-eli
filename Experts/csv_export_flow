@@ -89,9 +89,9 @@ nodes:
     data:
       id: H28L5Hatwbw1Gm_Qn3-a2
       title: Save File
-      outputName: csv_formatted_done.txt
+      outputName: csv_formatted.txt
     width: 212
-    height: 214
+    height: 190
     selected: false
     positionAbsolute:
       x: 473.2849092715103
@@ -134,7 +134,7 @@ nodes:
               https://github.com/tne-ai/studio-eli/blob/main/Experts/csv_export_flow
     width: 212
     height: 348
-    selected: true
+    selected: false
     positionAbsolute:
       x: 920.349825454384
       'y': 162.40951933366097
