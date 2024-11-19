@@ -18,29 +18,31 @@ nodes:
       x: 449.88940247822813
       'y': -397.70871917424984
     dragging: false
-  - id: QoH4X2P3L0Xf0PeNohfEI
-    type: file
+  - id: kNVvt_-S5HD9y9lpuNVTJ
+    type: python_code
     position:
-      x: 172.5687701716837
-      'y': -364.2240751548566
+      x: 417.2290863249559
+      'y': 58.574643183165314
     data:
-      id: QoH4X2P3L0Xf0PeNohfEI
-      title: Data
-      fileName: csv_creation_prompt.txt
+      id: kNVvt_-S5HD9y9lpuNVTJ
+      title: New Code
+      module: code_gen_md_to_pd.py
+      outputType: overwrite
+      outputToCanvas: false
       flowState:
         backend: git
         repo: studio-eli
         content:
           name: csv_export_flow
           path: Experts/csv_export_flow
-          sha: ab2cb88916d72388d39f13ce701d18d5a1fbfc9c
-          size: 1627
+          sha: f35854a1db0e2ac3004aea179dd80f9825c16082
+          size: 3266
           url: >-
             https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/csv_export_flow?ref=main
           html_url: >-
             https://github.com/tne-ai/studio-eli/blob/main/Experts/csv_export_flow
           git_url: >-
-            https://api.github.com/repos/tne-ai/studio-eli/git/blobs/ab2cb88916d72388d39f13ce701d18d5a1fbfc9c
+            https://api.github.com/repos/tne-ai/studio-eli/git/blobs/f35854a1db0e2ac3004aea179dd80f9825c16082
           download_url: >-
             https://raw.githubusercontent.com/tne-ai/studio-eli/main/Experts/csv_export_flow
           type: file
@@ -48,68 +50,17 @@ nodes:
             self: >-
               https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/csv_export_flow?ref=main
             git: >-
-              https://api.github.com/repos/tne-ai/studio-eli/git/blobs/ab2cb88916d72388d39f13ce701d18d5a1fbfc9c
+              https://api.github.com/repos/tne-ai/studio-eli/git/blobs/f35854a1db0e2ac3004aea179dd80f9825c16082
             html: >-
               https://github.com/tne-ai/studio-eli/blob/main/Experts/csv_export_flow
     width: 212
-    height: 250
-    selected: false
-    positionAbsolute:
-      x: 172.5687701716837
-      'y': -364.2240751548566
-    dragging: false
-  - id: _hkg92GUWBeCIPzfswILn
-    type: code_generation
-    position:
-      x: 342.3912932881026
-      'y': -13.685696888446419
-    data:
-      id: _hkg92GUWBeCIPzfswILn
-      title: generate dataframe
-      prompt: For the given markdown, you must generate a pd.DataFrame.
-      outputType: overwrite
-      outputToCanvas: false
-      useUserQuery: false
-      apiKey: OPENAI_API_KEY
-      engineName: tne
-      modelName: Llama-3.1-405B-Instruct
-    width: 214
-    height: 538
-    selected: false
-    positionAbsolute:
-      x: 342.3912932881026
-      'y': -13.685696888446419
-    dragging: false
-  - id: ynhzcxqjyg7p1lCEujwKy
-    type: out
-    position:
-      x: 367.8795887593289
-      'y': 671.0040045703438
-    data:
-      id: ynhzcxqjyg7p1lCEujwKy
-      title: Save File
-      outputName: generated_code2.txt
-    width: 212
-    height: 190
-    selected: false
-    positionAbsolute:
-      x: 367.8795887593289
-      'y': 671.0040045703438
+    height: 372
+    selected: true
     dragging: false
 edges:
-  - source: _hkg92GUWBeCIPzfswILn
-    sourceHandle: b
-    target: ynhzcxqjyg7p1lCEujwKy
-    targetHandle: t
-    id: TY-LeZ
   - source: 9kH31ORkuXt3-NLg_70o3
     sourceHandle: b
-    target: _hkg92GUWBeCIPzfswILn
+    target: kNVvt_-S5HD9y9lpuNVTJ
     targetHandle: t
-    id: Jk_xYd
-  - source: QoH4X2P3L0Xf0PeNohfEI
-    sourceHandle: b
-    target: _hkg92GUWBeCIPzfswILn
-    targetHandle: t
-    id: w8dJqS
+    id: 65r9dY
 description: null
