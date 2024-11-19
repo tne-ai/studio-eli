@@ -28,7 +28,7 @@ nodes:
       title: New Code
       module: code_gen_md_to_pd.py
       outputType: overwrite
-      outputToCanvas: true
+      outputToCanvas: false
       flowState:
         backend: git
         repo: studio-eli
@@ -55,7 +55,7 @@ nodes:
               https://github.com/tne-ai/studio-eli/blob/main/Experts/csv_export_flow
     width: 212
     height: 372
-    selected: false
+    selected: true
     dragging: false
     positionAbsolute:
       x: 424.24521372352876
