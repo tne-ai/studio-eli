@@ -8,8 +8,12 @@ session = TNE(uid=UID, bucket_name=BUCKET, project=PROJECT, version=VERSION)
 # Load CSV content from the input
 csv_content = PROCESS_INPUT
 
+# Remove the first and last lines
+lines = csv_content.strip().split("\n")
+csv_content = "\n".join(lines[1:-1])  # Exclude the first and last lines
+
 # Split the content into sections
-sections = csv_content.strip().split("\n\n")  # Separate blocks by double newline
+sections = csv_content.strip().split("\n\n")
 
 # Process the first section (Metrics Table)
 metrics_df = pd.read_csv(StringIO(sections[0]))
