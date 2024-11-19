@@ -1,5 +1,6 @@
 from tne.TNE import TNE
 import csv
+import pandas as pd
 
 session = TNE(uid=UID, bucket_name=BUCKET, project=PROJECT, version=VERSION)
 
