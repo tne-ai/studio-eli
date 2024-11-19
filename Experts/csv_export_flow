@@ -76,36 +76,33 @@ nodes:
       flowState: *ref_0
     width: 212
     height: 466
-    selected: false
+    selected: true
     positionAbsolute:
       x: 485.26913970065925
       'y': -13.289237522247356
     dragging: false
-  - id: CVlU8XFz0u9td7hfsh_x3
-    type: python_code
+  - id: H28L5Hatwbw1Gm_Qn3-a2
+    type: out
     position:
-      x: 811.2692732832454
-      'y': 324.5550836021107
+      x: 473.2849092715103
+      'y': 556.575775793568
     data:
-      id: CVlU8XFz0u9td7hfsh_x3
-      title: New Code
-      module: llm_output_to_csv.py
-      outputType: overwrite
-      outputToCanvas: false
-      flowState: *ref_0
+      id: H28L5Hatwbw1Gm_Qn3-a2
+      title: Save File
+      outputName: csv_formatted.txt
     width: 212
-    height: 348
+    height: 190
     selected: false
     positionAbsolute:
-      x: 811.2692732832454
-      'y': 324.5550836021107
+      x: 473.2849092715103
+      'y': 556.575775793568
     dragging: false
 edges:
   - source: 4pBW5ZAt7Yt7Sxbeyuzge
-    sourceHandle: r
-    target: CVlU8XFz0u9td7hfsh_x3
+    sourceHandle: b
+    target: H28L5Hatwbw1Gm_Qn3-a2
     targetHandle: t
-    id: CH0O-5
+    id: kJOoAb
   - source: 9kH31ORkuXt3-NLg_70o3
     sourceHandle: b
     target: 4pBW5ZAt7Yt7Sxbeyuzge
