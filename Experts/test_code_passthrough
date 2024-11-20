@@ -2,8 +2,8 @@ nodes:
   - id: 3aupaaQP8zuLPCqsV9DI3
     type: file
     position:
-      x: 524.5
-      'y': 257
+      x: 387.5764754176656
+      'y': 190.45772637120206
     data:
       id: 3aupaaQP8zuLPCqsV9DI3
       title: Data
@@ -15,18 +15,21 @@ nodes:
     height: 226
     selected: false
     positionAbsolute:
-      x: 524.5
-      'y': 257
+      x: 387.5764754176656
+      'y': 190.45772637120206
     dragging: false
   - id: 42Hc66R58_OkQpltXxiY7
     type: code_generation
     position:
-      x: 402.37112150562314
-      'y': 553.7778399321049
+      x: 195.13274438935673
+      'y': 476.5713857123194
     data:
       id: 42Hc66R58_OkQpltXxiY7
       title: Generate Code
-      prompt: ''
+      prompt: >-
+        For the given markdown file, you must extract the relevant table data
+        and generate a pd.DataFrame that will be amenable to downstream
+        charting.
       outputType: dispatch
       outputToCanvas: false
       useUserQuery: false
@@ -34,35 +37,37 @@ nodes:
       engineName: openai-gpt
       modelName: gpt-4o
     width: 227
-    height: 466
+    height: 562
     selected: false
     positionAbsolute:
-      x: 402.37112150562314
-      'y': 553.7778399321049
+      x: 195.13274438935673
+      'y': 476.5713857123194
     dragging: false
-  - id: mitqYPqVJZ5OgtkdGC3WZ
-    type: file
+  - id: VSzLka_dFLpsD4G3WCWcA
+    type: python_code
     position:
-      x: 233.41873504606963
-      'y': 168.22286971741772
+      x: 607.6722489752386
+      'y': 756.8949508160681
     data:
-      id: mitqYPqVJZ5OgtkdGC3WZ
-      title: Data
-      fileName: csv_creation_prompt.txt
+      id: VSzLka_dFLpsD4G3WCWcA
+      title: New Code
+      module: test.py
+      outputType: overwrite
+      outputToCanvas: false
       flowState:
         backend: git
         repo: studio-eli
         content:
           name: test_code_passthrough
           path: Experts/test_code_passthrough
-          sha: 2f9f29a5c5e6cb2a6fc73b636bc441a473f2f0f1
-          size: 965
+          sha: 1acdd2333d659923191532a682fc0cccb2e5d7b5
+          size: 2689
           url: >-
             https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/test_code_passthrough?ref=main
           html_url: >-
             https://github.com/tne-ai/studio-eli/blob/main/Experts/test_code_passthrough
           git_url: >-
-            https://api.github.com/repos/tne-ai/studio-eli/git/blobs/2f9f29a5c5e6cb2a6fc73b636bc441a473f2f0f1
+            https://api.github.com/repos/tne-ai/studio-eli/git/blobs/1acdd2333d659923191532a682fc0cccb2e5d7b5
           download_url: >-
             https://raw.githubusercontent.com/tne-ai/studio-eli/main/Experts/test_code_passthrough
           type: file
@@ -70,22 +75,22 @@ nodes:
             self: >-
               https://api.github.com/repos/tne-ai/studio-eli/contents/Experts/test_code_passthrough?ref=main
             git: >-
-              https://api.github.com/repos/tne-ai/studio-eli/git/blobs/2f9f29a5c5e6cb2a6fc73b636bc441a473f2f0f1
+              https://api.github.com/repos/tne-ai/studio-eli/git/blobs/1acdd2333d659923191532a682fc0cccb2e5d7b5
             html: >-
               https://github.com/tne-ai/studio-eli/blob/main/Experts/test_code_passthrough
     width: 212
-    height: 250
-    selected: false
+    height: 348
+    selected: true
     positionAbsolute:
-      x: 233.41873504606963
-      'y': 168.22286971741772
+      x: 607.6722489752386
+      'y': 756.8949508160681
     dragging: false
 edges:
-  - source: mitqYPqVJZ5OgtkdGC3WZ
-    sourceHandle: b
-    target: 42Hc66R58_OkQpltXxiY7
+  - source: 42Hc66R58_OkQpltXxiY7
+    sourceHandle: r
+    target: VSzLka_dFLpsD4G3WCWcA
     targetHandle: t
-    id: wV5AP9
+    id: VcjwJo
   - source: 3aupaaQP8zuLPCqsV9DI3
     sourceHandle: b
     target: 42Hc66R58_OkQpltXxiY7
