@@ -29,16 +29,16 @@ nodes:
       prompt: >-
         For the given markdown file, you must extract the relevant table data
         and generate a pd.DataFrame that will be amenable to downstream
-        charting.
+        charting. To access a file, use session.get_object("FILENAME")
       outputType: dispatch
       outputToCanvas: false
       useUserQuery: false
       apiKey: OPENAI_API_KEY
-      engineName: openai-gpt
-      modelName: gpt-4o
+      engineName: tne
+      modelName: Llama-3.1-405B-Instruct
     width: 227
-    height: 562
-    selected: false
+    height: 634
+    selected: true
     positionAbsolute:
       x: 195.13274438935673
       'y': 476.5713857123194
@@ -80,7 +80,7 @@ nodes:
               https://github.com/tne-ai/studio-eli/blob/main/Experts/test_code_passthrough
     width: 212
     height: 348
-    selected: true
+    selected: false
     positionAbsolute:
       x: 607.6722489752386
       'y': 756.8949508160681
